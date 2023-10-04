@@ -1,0 +1,117 @@
+/* Remove card borders and add padding */
+.card {
+    border: none;
+    padding: 1rem;
+    background: transparent;
+}
+
+/* Increase padding and apply styles to the topbar */
+.layout-topbar {
+    padding: 18px;
+    background-color: #fffdfdaf;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.02), 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Increase top padding of the container by 5px */
+.container {
+    padding-top: 5px;
+}
+
+/* Style the topbar text and links */
+.layout-topbar h3,
+.layout-topbar a {
+    color: #030303;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.layout-topbar a:hover {
+    text-decoration: underline;
+}
+
+/* Increase padding and apply styles to the navbar */
+.navbar {
+    padding: 15px;
+    background-color: #fffdfdaf;
+    border-radius: 12px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.02), 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* Style the navbar links */
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Style the card header */
+.card-header {
+    background-color: transparent   ;
+    color: #030303;
+}
+
+/* Style the welcome image */
+.card-img-top {
+    height: 420px;
+    width: 336px;
+    background: transparent;
+}
+
+/* Style the welcome text */
+.card-title {
+    font-size: 3.5rem !important;
+    margin-bottom: 0; /* Remove bottom margin to align with p */
+    margin-top: -1rem;
+}
+
+/* Style the rest of the card text */
+.card-text {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.card-body {
+    border-radius: 10px;
+}
+
+/* Style the REST API section */
+.card.mt-4 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.02), 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 1px 4px rgba(0, 0, 0, 0.08) !important;
+    width: 83.3333% !important;
+}
+
+/* Style headings in the REST API section */
+.card.mt-4 h4 {
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+/* Style paragraphs in the REST API section */
+.card.mt-4 p {
+    font-size: 14px;
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+}
+
+/* Style hyperlinks */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background: #7b81a524;
+}

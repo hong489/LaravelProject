@@ -49,11 +49,11 @@ Route::post('/email/verification-notification', function (Request $request) {
     return back()->with('message', 'Verification link sent!');
 })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
-Route::get('/', function () {
-    \App\Jobs\SendVerificationEmail::dispatch();
+// Route::get('/', function () {
+//     \App\Jobs\SendVerificationEmail::dispatch();
 
-    \App\Jobs\SendVerificationEmail::dispatch()
-    ->onQueue('high-priority');
+//     \App\Jobs\SendVerificationEmail::dispatch()
+//     ->onQueue('high-priority');
 
-    return view('user.user_dash');
-});
+//     return view('user.user_dash');
+// });

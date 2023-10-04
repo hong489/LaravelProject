@@ -1,4 +1,4 @@
-@extends('user.layouts')
+@extends('MasterLayout')
 
 @section('content')
 
